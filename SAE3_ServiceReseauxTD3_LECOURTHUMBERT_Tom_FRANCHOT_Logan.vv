@@ -3,7 +3,7 @@ type=vnc
 title=SAE3_ServiceReseauxTD3_LECOURTHUMBERT_Tom_FRANCHOT_Logan
 host=one-dell1
 port=12214
-proxy=http://one-frontend:29876?token=qxqr6kdb46nfw4xbtgiv
+proxy=http://one-frontend:29876?token=74i9igvh7rosb5uw1vtv
 fullscreen=0
 toggle-fullscreen=shift+f11
 release-cursor=shift+f12
