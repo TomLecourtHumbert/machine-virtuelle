@@ -63,9 +63,14 @@ Redémarrage de apache2.
 Connection avec mysql concluante.
 
 ## 7. Installation de la plateforme MediaWiki
-Partie non finie car problème sur l'exécution du script.
-Parties faites :
 Téléchargement de l'archive, installation du paquet unzip (sudo apt install unzip), extraction de l'archive dans le dossier mon_serveur et création de la base de données my_wiki comme dit dans l'énoncé.
+Création de la base de données my_wiki et de wikiuser (voir phpMyAdmin).
+Mot de passe wikiuser : database_wiki
+Création du wiki, voir captures d'écran (mot de passe admin_wiki : admin_wiki)
+Téléchargement de LocalSettings.php créé grâce à la création du wiki.
+Recopiage de LocalSettings.php dans la machine virtuelle.
+Relancement de "2a4v3-31uvm0413.ad-urca.univ-reims.fr/mediawiki-1.41.1",
+le wiki marche !
 
 ## 2. Complément acl
 Installation du paquet acl.
